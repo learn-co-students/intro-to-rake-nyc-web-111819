@@ -1,5 +1,5 @@
 require_relative "../config/environment.rb"
-
+require "pry"
 class Student
 
   # Remember, you can access your database connection anywhere in this class
@@ -52,3 +52,6 @@ class Student
   end
 
 end
+
+# Binding.pry 
+0
